@@ -62,6 +62,20 @@ define([
                     autoFocus required onChange={this.onChange} />
                 </div>
               </div>
+
+            <div className="form-group">
+                <label htmlFor="cmd-field" className="col-md-3 control-label">
+                  Command
+                </label>
+                <div className="col-md-9">
+                  <textarea style={{resize: "vertical"}} className="form-control"
+                    id="cmd-field" name="cmd" required>
+                  </textarea>
+                </div>
+              </div>
+
+
+  
               <div className="form-group">
                 <label htmlFor="cmd-field" className="col-md-3 control-label">
                   Command
@@ -72,6 +86,9 @@ define([
                   </textarea>
                 </div>
               </div>
+
+
+
               <div className="form-group">
                 <label htmlFor="cpus-field" className="col-md-3 control-label">
                   CPUs
